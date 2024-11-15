@@ -1,4 +1,4 @@
 {
-    "postinstall": "./setup.sh",
-    "start": "cd ~/frappe-bench/frappe-bench && bench start"
-  }
+  "postinstall": "./setup.sh",
+  "start": "cd ~/frappe-bench/frappe-bench && source ../.venv/bin/activate && bench start"
+}
